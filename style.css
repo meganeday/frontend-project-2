@@ -1,0 +1,76 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-weight: 200;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+h3 {
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* styling for header */
+header {
+    background-color: #F5F5F5;
+    margin: auto;
+    padding: 15px;
+}
+
+.nav-bar {
+    list-style-type: none;
+}
+.nav-bar li {
+    background-color: #ffffff;
+    padding: 5px;
+    margin-bottom: 5px;
+    width: 90%;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+header img {
+    width: 75%;
+    padding: 15px;
+}
+
+/* header p {
+    width: 90%
+} */
+
+/* styling for portfolio project sections */
+main {
+    padding: 15px;
+}
+
+.project {
+    background-color: #ffffff
+}
+
+.project img {
+    width: 100%;
+}
+
+/* styling for footer */
+footer {
+    background-color: #F5F5F5;
+    padding: 15px;
+}
+
+.contact a {
+    font-weight: 400;
+    text-transform: lowercase;
+}
+
+.footer-nav {
+    font-weight: 600;
+}
