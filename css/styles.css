@@ -1,3 +1,7 @@
+* {
+box-sizing: border-box;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     text-align: center;
@@ -6,6 +10,7 @@ body {
 
 h2 {
     text-transform: uppercase;
+    font-size: 12pt
 }
 
 h3 {
@@ -22,18 +27,18 @@ a {
 /* styling for header */
 header {
     background-color: #F5F5F5;
-    margin: auto;
     padding: 15px;
+    width: 100%
 }
 
-.nav-bar {
-    list-style-type: none;
+ul.nav-bar {
+    padding: 0;
 }
 .nav-bar li {
+    list-style-type: none;
     background-color: #ffffff;
     padding: 5px;
     margin-bottom: 5px;
-    width: 90%;
     text-transform: uppercase;
     font-weight: 600;
 }
@@ -73,4 +78,8 @@ footer {
 
 .footer-nav {
     font-weight: 600;
+}
+
+.footer-nav a {
+    display: inline;
 }
