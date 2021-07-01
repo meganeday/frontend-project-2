@@ -63,8 +63,8 @@ header {
 }
 
 header img {
-    max-width: 65vw;
     padding-top: 4vh;
+    width: 70vw;
     max-width: 330px;
     max-height: 230px;    
 }
@@ -80,7 +80,27 @@ main {
     padding: 20px 40px;
     margin-top: 0;
 }
+/* skills style */
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
+#skills ul li {
+    border: 5px solid #6CCDC1;
+    background-color: #6CCDC1;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+}
+
+#skills ul li:nth-child(odd) {
+    border-color: #F68833;
+    background-color: #F68833;
+}
 /* styling for footer */
 footer {
     background-color: #E1DED9;
@@ -134,7 +154,7 @@ footer {
         width: 20vw;
     }
 
-    section.student-details {
+    div.student-details {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -142,14 +162,14 @@ footer {
         padding-bottom: 2vh;
     }
 
-    section.student-details p {
+    div.student-details p {
         width: 50vw;
         order: -1;
         text-align: left;
         font-size: 16pt;
     }
 
-    section.student-details img {
+    div.student-details img {
         width: 35vw;
     }
 
@@ -169,15 +189,10 @@ footer {
     section.project {
         flex-grow: 1;
         width: 35vw;
-        font-size: 1.75vh;
     }
 
     section.project img {
-        width: 40vw;
-    }
-
-    section.project p {
-        font-size: 1.5vw;
+        width: 35vw;
     }
 
     /* footer style */
@@ -227,10 +242,9 @@ footer {
     section.project {
         flex-grow: 1;
         width: 25vw;
-        font-size: 1.75vh;
     }
 
-    section.project img{
+    section.project img {
         width: 30vw;
     }
 }
